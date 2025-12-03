@@ -11,6 +11,11 @@ on:
 jobs:
   build-and-scan:
     runs-on: ubuntu-latest
+    env:
+      ECR_REGISTRY_BACKEND: ${{ secrets.ECR_REGISTRY_BACKEND }}
+      ECR_REGISTRY_FRONTEND: ${{ secrets.ECR_REGISTRY_FRONTEND }}
+      ECR_REGISTRY_NO: ${{ secrets.ECR_REGISTRY_NO }}
+
     services:
       docker:
         image: docker:20.10.7-dind
@@ -62,26 +67,33 @@ jobs:
             echo "changed=false" >> $GITHUB_OUTPUT
           fi
 
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+          
       - name: Log in to ECR
-        run: aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin "$ECR_REGISTRY_NO".dkr.ecr.ap-south-1.amazonaws.com
+        run: aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin "$ECR_REGISTRY_NO".dkr.ecr.us-east-1.amazonaws.com
 
       - name: Build and Push workload Frontend Docker image 
         if: steps.frontend-workload-changed.outputs.changed == 'true'
         run: |
           cd ClientSide
           TAG=${{ steps.workload_sha.outputs.workload_sha }}-staging
-          docker build -t $ECR_REGISTRY_NO.dkr.ecr.ap-south-1.amazonaws.com/$ECR_REGISTRY_FRONTEND:$TAG .
-          docker push $ECR_REGISTRY_NO.dkr.ecr.ap-south-1.amazonaws.com/$ECR_REGISTRY_FRONTEND:$TAG
-          echo "FRONTEND_NEW_IMAGE=$ECR_REGISTRY_NO.dkr.ecr.ap-south-1.amazonaws.com/$ECR_REGISTRY_FRONTEND:$TAG" >> $GITHUB_ENV
+          docker build -t $ECR_REGISTRY_NO.dkr.ecr.us-east-1.amazonaws.com/$ECR_REGISTRY_FRONTEND:$TAG .
+          docker push $ECR_REGISTRY_NO.dkr.ecr.us-east-1.amazonaws.com/$ECR_REGISTRY_FRONTEND:$TAG
+          echo "FRONTEND_NEW_IMAGE=$ECR_REGISTRY_NO.dkr.ecr.us-east-1.amazonaws.com/$ECR_REGISTRY_FRONTEND:$TAG" >> $GITHUB_ENV
 
       - name: Build and Push workload Backend Docker image
         if: steps.backend-workload-changed.outputs.changed == 'true'
         run: |
           cd ServerSide
           TAG=${{ steps.workload_sha.outputs.workload_sha }}-staging
-          docker build -t $ECR_REGISTRY_NO.dkr.ecr.ap-south-1.amazonaws.com/$ECR_REGISTRY_BACKEND:$TAG .
-          docker push $ECR_REGISTRY_NO.dkr.ecr.ap-south-1.amazonaws.com/$ECR_REGISTRY_BACKEND:$TAG
-          echo "BACKEND_NEW_IMAGE=$ECR_REGISTRY_NO.dkr.ecr.ap-south-1.amazonaws.com/$ECR_REGISTRY_BACKEND:$TAG" >> $GITHUB_ENV
+          docker build -t $ECR_REGISTRY_NO.dkr.ecr.us-east-1.amazonaws.com/$ECR_REGISTRY_BACKEND:$TAG .
+          docker push $ECR_REGISTRY_NO.dkr.ecr.us-east-1.amazonaws.com/$ECR_REGISTRY_BACKEND:$TAG
+          echo "BACKEND_NEW_IMAGE=$ECR_REGISTRY_NO.dkr.ecr.us-east-1.amazonaws.com/$ECR_REGISTRY_BACKEND:$TAG" >> $GITHUB_ENV
 
       - name: Install yq
         run: |
