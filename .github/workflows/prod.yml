@@ -129,9 +129,10 @@ jobs:
           cd Argo-GitOps
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
+          git remote set-url origin https://x-access-token:${{ secrets.GHCR_PAT }}@github.com/prakrit55/Argo-GitOps.git
           git add .
-          git commit -m "Update image"
-          git push --set-upstream origin HEAD
+          git commit -m "Update image for staging-${{ github.run_number }}"
+          git push --set-upstream origin staging-${{ github.run_number }}
 
       - name: Create Pull Request on Argo-GitOps
         env:
