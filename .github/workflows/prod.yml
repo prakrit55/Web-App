@@ -39,7 +39,7 @@ jobs:
           CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
           echo "Changed files:"
           echo "$CHANGED_FILES"
-          if echo "$CHANGED_FILES" | grep -E "^frontend/"; then
+          if echo "$CHANGED_FILES" | grep -E "^ClientSide/"; then
             echo "changed=true" >> $GITHUB_OUTPUT
           else
             echo "changed=false" >> $GITHUB_OUTPUT
@@ -56,7 +56,7 @@ jobs:
           CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
           echo "Changed files:"
           echo "$CHANGED_FILES"
-          if echo "$CHANGED_FILES" | grep -E "^backend/"; then
+          if echo "$CHANGED_FILES" | grep -E "^ServerSide/"; then
             echo "changed=true" >> $GITHUB_OUTPUT
           else
             echo "changed=false" >> $GITHUB_OUTPUT
