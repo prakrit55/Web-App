@@ -51,8 +51,9 @@ jobs:
       - name: Install dependencies, Build, Lint (Frontend)
         if: steps.workload-changed.outputs.changed == 'true'
         run: |
-          cd frontend 
+          cd ClientSide
           npm ci
+          npm run build
           npm run lint
           docker build -t ghcr.io/${{ steps.repo.outputs.repo }}/frontend-workload:${{ steps.workload_sha.outputs.workload_sha }} .
 
@@ -62,8 +63,7 @@ jobs:
       - name: Install dependencies, Build, Lint (Backend)
         if: steps.workload-changed.outputs.changed == 'true'
         run: |
-          cd frontend 
+          cd ServerSide
           npm ci
-          npm run build
           npm run lint
           docker build -t ghcr.io/${{ steps.repo.outputs.repo }}/backend-workload:${{ steps.workload_sha.outputs.workload_sha }} .
