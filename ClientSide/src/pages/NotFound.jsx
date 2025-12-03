@@ -1,4 +1,4 @@
-import PageNotFound from "../../../Other/NotFound.svg";
+import PageNotFound from "../../Other/NotFound.svg";
 function NotFound() {
   return (
     <>
