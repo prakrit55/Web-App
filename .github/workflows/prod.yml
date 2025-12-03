@@ -136,6 +136,7 @@ jobs:
           git config user.name "GitHub Actions"
           git add .
           git commit -m "Update image" || echo "No changes to commit"
+          git remote set-url origin https://prakrit55:${{ secrets.GH_PAT }}@github.com/prakrit55/Argo-GitOps.git
           git push --set-upstream origin HEAD
 
       - name: Create Pull Request on Argo-GitOps
