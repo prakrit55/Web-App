@@ -15,6 +15,5 @@ async function initializeAPI() {
 }
 
 const apiPromise = initializeAPI();
-
 export default apiPromise;
 export { initializeAPI };
