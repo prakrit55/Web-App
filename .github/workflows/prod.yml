@@ -121,25 +121,25 @@ jobs:
         if: steps.frontend-workload-changed.outputs.changed == 'true'
         run: |
           cd Argo-GitOps
-          git checkout prod-${{ github.run_number }}
+          git checkout -b staging-${{ github.run_number }} || git checkout staging-${{ github.run_number }}
           yq -i '.spec.template.spec.containers[0].image = env(FRONTEND_NEW_IMAGE)' frontend/frontend.yaml
 
       - name: Commit changes
+        if: steps.backend-workload-changed.outputs.changed == 'true' || steps.frontend-workload-changed.outputs.changed == 'true'
         run: |
           cd Argo-GitOps
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
           git remote set-url origin https://x-access-token:${{ secrets.GHCR_PAT }}@github.com/prakrit55/Argo-GitOps.git
           git add .
-          git commit -m "Update image for staging-${{ github.run_number }}"
-          git push --set-upstream origin staging-${{ github.run_number }}
+          git commit -m "Update image for prod-${{ github.run_number }}"
+          git push --set-upstream origin prod-${{ github.run_number }}
 
       - name: Create Pull Request on Argo-GitOps
         env:
           GH_PAT: ${{ secrets.GHCR_PAT }}
         run: |
           BRANCH="prod-${{ github.run_number }}"
-
           curl --fail-with-body \
             -X POST https://api.github.com/repos/prakrit55/Argo-GitOps/pulls \
             -H "Authorization: Bearer $GH_PAT" \
