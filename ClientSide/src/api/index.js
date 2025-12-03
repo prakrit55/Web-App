@@ -1,9 +1,20 @@
 import axios from "axios";
 
-let config = await fetch("/config.json").then(res => res.json());
+let config;
+let API;
 
-const API = axios.create({
-  baseURL: config.API_BASE_URL,
-});
+async function initializeAPI() {
+  if (!config) {
+    config = await fetch("/config.json").then(res => res.json());
+    
+    API = axios.create({
+      baseURL: config.API_BASE_URL,
+    });
+  }
+  return API;
+}
 
-export default API;
+const apiPromise = initializeAPI();
+
+export default apiPromise;
+export { initializeAPI };
