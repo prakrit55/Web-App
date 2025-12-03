@@ -103,7 +103,7 @@ jobs:
       - name: setup git and clone brew formula
         uses: actions/checkout@v3
         with:
-          path: ''
+          path: 'Argo-GitOps'
           ref: 'staging'
           repository: 'prakrit55/Argo-GitOps'
           token: ${{ secrets.GHCR_PAT }}
