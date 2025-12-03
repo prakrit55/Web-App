@@ -1,14 +1,12 @@
 import React, { useEffect, useState, useRef } from "react";
 import { Link, NavLink } from "react-router";
 
-import img1 from "../../assets/CarouselImages/Quote1.png";
-import img2 from "../../assets/CarouselImages/Quote2.png";
-import img3 from "../../assets/CarouselImages/Quote3.png";
-import m_img1 from "../../assets/CarouselImages/Quote1.png";
-import m_img2 from "../../assets/CarouselImages/Quote2.png";
-import m_img3 from "../../assets/CarouselImages/Quote3.png";
+const images = [
+  "https://zekicoders3staticfiles.s3.us-east-1.amazonaws.com/Quote1.png",
+  "https://zekicoders3staticfiles.s3.us-east-1.amazonaws.com/Quote2.png",
+  "https://zekicoders3staticfiles.s3.us-east-1.amazonaws.com/Quote3.png",
+];
 
-const images = [img1, img2, img3];
 const imageLinks = [
   null,
   null,

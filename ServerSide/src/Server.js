@@ -27,6 +27,10 @@ app.get("/", (req, res) => {
   res.send("ZekiCoderLMS Backend Server is running...");
 });
 
+app.get("/health", (req, res) => {
+  res.status(200).json({ status: "OK" });
+});
+
 // ───────────────────────────────
 // Server & DB Boot
 // ───────────────────────────────
