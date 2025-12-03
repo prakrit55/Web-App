@@ -129,15 +129,13 @@ jobs:
 
       - name: Commit changes
         if: steps.backend-workload-changed.outputs.changed == 'true' || steps.frontend-workload-changed.outputs.changed == 'true'
-        env:
-          GH_PAT: ${{ secrets.GHCR_PAT }}
         run: |
           cd Argo-GitOps
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
           git add .
           git commit -m "Update image" || echo "No changes to commit"
-          git remote set-url origin https://prakrit55:${{ secrets.GH_PAT }}@github.com/prakrit55/Argo-GitOps.git
+          git remote set-url origin https://prakrit55:${{ secrets.GHCR_PAT }}@github.com/prakrit55/Argo-GitOps.git
           git push --set-upstream origin HEAD
 
       - name: Create Pull Request on Argo-GitOps
