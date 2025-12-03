@@ -8,6 +8,7 @@ const generateToken = (id) => {
         expiresIn: "30d",
     });
 };
+
 export const loginAdmin = async (req, res) => {
     const { username, password } = req.body;
 
