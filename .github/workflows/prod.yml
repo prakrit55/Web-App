@@ -11,6 +11,11 @@ on:
 jobs:
   build-and-scan:
     runs-on: ubuntu-latest
+    env:
+      ECR_REGISTRY_BACKEND: ${{ secrets.ECR_REGISTRY_BACKEND }}
+      ECR_REGISTRY_FRONTEND: ${{ secrets.ECR_REGISTRY_FRONTEND }}
+      ECR_REGISTRY_NO: ${{ secrets.ECR_REGISTRY_NO }}
+      
     services:
       docker:
         image: docker:20.10.7-dind
