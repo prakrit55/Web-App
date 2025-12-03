@@ -1,0 +1,154 @@
+[
+  {
+    "thumbnail": "https://img.youtube.com/vi/HcOc7P5BMi4/hqdefault.jpg",
+    "title": "HTML Tutorial For Beginners",
+    "category": "Frontend",
+    "teacher": "Shradha Khapra",
+    "youtubeLink": "https://youtu.be/HcOc7P5BMi4?si=7GGUY0H2umsSjnfJ",
+    "duration": "2 Hours 6 Minutes"
+  },
+  {
+    "thumbnail": "https://img.youtube.com/vi/rklidcZ-aLU/hqdefault.jpg",
+    "title": "HTML Complete Course",
+    "category": "Frontend",
+    "teacher": "Prashant Jain",
+    "youtubeLink": "https://youtu.be/rklidcZ-aLU?si=GG54KY2VI1IZ9Xjq",
+    "duration": "4 Hours 15 Minutes"
+  },
+  {
+    "thumbnail": "https://img.youtube.com/vi/ESnrn1kAD4E/hqdefault.jpg",
+    "title": "CSS Complete Course",
+    "category": "Frontend",
+    "teacher": "Shradha Khapra",
+    "youtubeLink": "https://youtu.be/ESnrn1kAD4E?si=Ybo-UxI-pXTwhV6r",
+    "duration": "7 Hours 18 Minutes"
+  },
+  {
+    "thumbnail": "https://img.youtube.com/vi/OpWjt_wbV4E/hqdefault.jpg",
+    "title": "CSS Complete Course",
+    "category": "Frontend",
+    "teacher": "Prashant Jain",
+    "youtubeLink": "https://youtu.be/OpWjt_wbV4E?si=Y6uZ-tYHqEqWIRAP",
+    "duration": "7 Hours 48 Minutes"
+  },
+  {
+    "thumbnail": "https://img.youtube.com/vi/_9mTJ84uL1Q/hqdefault.jpg",
+    "title": "TailwindCSS Complete Course",
+    "category": "Frontend",
+    "teacher": "Hitesh Choudhary",
+    "youtubeLink": "https://youtu.be/_9mTJ84uL1Q?si=5CmbP6axon_B7Lzf",
+    "duration": "1 Hour 55 Minutes"
+  },
+  {
+    "thumbnail": "https://img.youtube.com/vi/_eHc5K0zAPw/hqdefault.jpg",
+    "title": "JavaScript Crash Course",
+    "category": "Frontend",
+    "teacher": "Prashant Jain",
+    "youtubeLink": "https://youtu.be/_eHc5K0zAPw?si=nj8lni413KQvp0pQ",
+    "duration": "3 Hours 44 Minutes"
+  },
+  {
+    "thumbnail": "https://img.youtube.com/vi/VlPiVmYuoqw/hqdefault.jpg",
+    "title": "JavaScript Complete Course",
+    "category": "Frontend",
+    "teacher": "Shradha Khapra",
+    "youtubeLink": "https://youtu.be/VlPiVmYuoqw?si=MbifZvKStaVuEdgT",
+    "duration": "11 Hours 47 Minutes"
+  },
+  {
+    "thumbnail": "https://img.youtube.com/vi/lfmg-EJ8gm4/hqdefault.jpg",
+    "title": "JavaScript Complete Course",
+    "category": "Frontend",
+    "teacher": "Chris (Bro Code)",
+    "youtubeLink": "https://youtu.be/lfmg-EJ8gm4?si=5uz7TLEdzuc5SqVR",
+    "duration": "12 Hours"
+  },
+  {
+    "thumbnail": "https://img.youtube.com/vi/lVzb6pmel_E/hqdefault.jpg",
+    "title": "TypeScript Complete Course",
+    "category": "Frontend",
+    "teacher": "Harsh Sharma",
+    "youtubeLink": "https://youtu.be/lVzb6pmel_E?si=994HNvSLExi6KInL",
+    "duration": "3 Hours 57 Minutes"
+  },
+  {
+    "thumbnail": "https://img.youtube.com/vi/7fjOw8ApZ1I/hqdefault.jpg",
+    "title": "Backend Complete Course",
+    "category": "Backend",
+    "teacher": "Hitesh Choudhary",
+    "youtubeLink": "https://youtu.be/7fjOw8ApZ1I?si=YU3szoBq0VMT-6SJ",
+    "duration": "14 Hours 10 Minutes"
+  },
+  {
+    "thumbnail": "",
+    "title": "Backend Complete Course",
+    "category": "Backend",
+    "teacher": "Harsh Sharma",
+    "youtubeLink": "https://youtube.com/playlist?list=PLbtI3_MArDOkXRLxdMt1NOMtCS-84ibHH&si=xUWAxjgWrNltK_qq",
+    "duration": "12 Hours 15 Minutes"
+  },
+  {
+    "thumbnail": "https://img.youtube.com/vi/hlGoQC332VM/hqdefault.jpg",
+    "title": "SQL Complete Course",
+    "category": "Database",
+    "teacher": "Shradha Khapra",
+    "youtubeLink": "https://youtu.be/hlGoQC332VM?si=Ownc-QiG-4kT5-SU",
+    "duration": "3 Hours 16 Minutes"
+  },
+  {
+    "thumbnail": "https://img.youtube.com/vi/cnzka7kF5Zk/hqdefault.jpg",
+    "title": "PostgreSQL Complete Course",
+    "category": "Database",
+    "teacher": "Prashant",
+    "youtubeLink": "https://youtu.be/cnzka7kF5Zk?si=FkHgzICVpVN9H3Rw",
+    "duration": "4 Hours 47 Minutes"
+  },
+  {
+    "thumbnail": "https://img.youtube.com/vi/c2M-rlkkT5o/hqdefault.jpg",
+    "title": "MongoDB Complete Course",
+    "category": "Database",
+    "teacher": "Chris (Bro Code)",
+    "youtubeLink": "https://youtu.be/c2M-rlkkT5o?si=F3bj4Zk3hsXysRcK",
+    "duration": "1 Hour"
+  },
+  {
+    "thumbnail": "https://img.youtube.com/vi/rU9ZODw5yvU/hqdefault.jpg",
+    "title": "MongoDB Complete Course",
+    "category": "Database",
+    "teacher": "Vinod Thapa",
+    "youtubeLink": "https://youtu.be/rU9ZODw5yvU?si=odeGki2Ntuhoc1A4",
+    "duration": "5 Hours 20 Minutes"
+  },
+  {
+    "thumbnail": "",
+    "title": "Full Stack Development",
+    "category": "Full Stack",
+    "teacher": "HuXn WebDev",
+    "youtubeLink": "https://youtube.com/playlist?list=PLSDeUiTMfxW6VChKWb26Z_mPR4f6fAmMV&si=wxQzbmNCJ0C8czI6",
+    "duration": "137+ Hours"
+  },
+  {
+    "thumbnail": "https://img.youtube.com/vi/nu_pCVPKzTk/hqdefault.jpg",
+    "title": "Full Stack Development",
+    "category": "Full Stack",
+    "teacher": "Beau & Tomi",
+    "youtubeLink": "https://youtu.be/nu_pCVPKzTk?si=vfuyDytUQkO8_kBy",
+    "duration": "7 Hours 30 Minutes"
+  },
+  {
+    "thumbnail": "https://img.youtube.com/vi/5NgNicANyqM/hqdefault.jpg",
+    "title": "Artificial Intelligence",
+    "category": "Artificial Intelligence",
+    "teacher": "Beau, Harvard CS50s",
+    "youtubeLink": "https://youtu.be/5NgNicANyqM?si=So0a3wLBs0-JE8zL",
+    "duration": "12 Hours"
+  },
+  {
+    "thumbnail": "https://img.youtube.com/vi/VPvVD8t02U8/hqdefault.jpg",
+    "title": "Mobile Development",
+    "category": "Mobile Development",
+    "teacher": "Beau",
+    "youtubeLink": "https://youtu.be/VPvVD8t02U8?si=ZQuPLfYVtSBMO7sD",
+    "duration": "36 Hours 39 Minutes"
+  }
+]

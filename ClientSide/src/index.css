@@ -1,0 +1,64 @@
+@import "tailwindcss";
+@import "animate.css";
+
+/* @import url("https://fonts.cdnfonts.com/css/keania-one");
+@import url("https://fonts.cdnfonts.com/css/fuerte-y-rotunda");
+@import url("https://fonts.cdnfonts.com/css/karmatic-arcade");
+@import url("https://fonts.cdnfonts.com/css/inter");
+@import url("https://fonts.cdnfonts.com/css/montserrat");
+@import url("https://fonts.cdnfonts.com/css/acetate");
+@import url("https://fonts.cdnfonts.com/css/poppins"); */
+
+@theme {
+  --color-primary: #0d1b2a;
+  --color-accent: #72ddf7;
+  --color-zekifont: #f5f0f6;
+  --color-background: #1b263b;
+
+  --font-karmatic: "Karmatic Arcade", sans-serif;
+  --font-acetate: "Acetate", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-keania: "Keania One", sans-serif;
+  --font-fuerte: "Fuerte Y Rotunda", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+}
+
+H6 {
+  color: #000433;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+  background: var(--color-muted);
+}
+
+/* Scrollbar Track Background */
+::-webkit-scrollbar-track {
+  background: var(--color-background);
+}
+
+body {
+  background-color: var(--color-background);
+  font-family: var(--font-montserrat);
+}
+
+.neonText {
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
+    0 0 42px var(--color-accent), 0 0 82px var(--color-accent),
+    0 0 92px var(--color-accent), 0 0 102px var(--color-accent),
+    0 0 151px var(--color-accent);
+}
+
+.glass-bg {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}

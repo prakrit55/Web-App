@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zekicoders-lms.vercel.app/sitemap.xml

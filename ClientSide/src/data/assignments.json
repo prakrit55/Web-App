@@ -1,0 +1,695 @@
+[
+  {
+    "title": "Binary Search Algorithm",
+    "description": "This assignment requires you to binary search algorithm using basic programming constructs and logic.",
+    "difficulty": "Intermediate",
+    "color": "yellow",
+    "pseudocode": "Pseudocode for Binary Search Algorithm:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Fibonacci Series Generator",
+    "description": "This assignment requires you to fibonacci series generator using basic programming constructs and logic.",
+    "difficulty": "Intermediate",
+    "color": "yellow",
+    "pseudocode": "Pseudocode for Fibonacci Series Generator:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Implement Stack",
+    "description": "This assignment requires you to implement stack using basic programming constructs and logic.",
+    "difficulty": "Intermediate",
+    "color": "yellow",
+    "pseudocode": "Pseudocode for Implement Stack:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Factorial Calculator",
+    "description": "This assignment requires you to factorial calculator using basic programming constructs and logic.",
+    "difficulty": "Intermediate",
+    "color": "yellow",
+    "pseudocode": "Pseudocode for Factorial Calculator:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find Missing Number",
+    "description": "This assignment requires you to find missing number using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Find Missing Number:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Breadth First Search",
+    "description": "This assignment requires you to breadth first search using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Breadth First Search:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Implement Stack",
+    "description": "This assignment requires you to implement stack using basic programming constructs and logic.",
+    "difficulty": "Easy",
+    "color": "lime",
+    "pseudocode": "Pseudocode for Implement Stack:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Reverse a String",
+    "description": "This assignment requires you to reverse a string using basic programming constructs and logic.",
+    "difficulty": "Intermediate",
+    "color": "yellow",
+    "pseudocode": "Pseudocode for Reverse a String:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Implement Queue",
+    "description": "This assignment requires you to implement queue using basic programming constructs and logic.",
+    "difficulty": "Intermediate",
+    "color": "yellow",
+    "pseudocode": "Pseudocode for Implement Queue:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Palindrome Checker",
+    "description": "This assignment requires you to palindrome checker using basic programming constructs and logic.",
+    "difficulty": "Extreme",
+    "color": "red",
+    "pseudocode": "Pseudocode for Palindrome Checker:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Implement Stack",
+    "description": "This assignment requires you to implement stack using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Implement Stack:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find Missing Number",
+    "description": "This assignment requires you to find missing number using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Find Missing Number:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Binary Search Algorithm",
+    "description": "This assignment requires you to binary search algorithm using basic programming constructs and logic.",
+    "difficulty": "Easy",
+    "color": "lime",
+    "pseudocode": "Pseudocode for Binary Search Algorithm:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Detect Loop in Linked List",
+    "description": "This assignment requires you to detect loop in linked list using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Detect Loop in Linked List:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Matrix Multiplication",
+    "description": "This assignment requires you to matrix multiplication using basic programming constructs and logic.",
+    "difficulty": "Intermediate",
+    "color": "yellow",
+    "pseudocode": "Pseudocode for Matrix Multiplication:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Binary Search Algorithm",
+    "description": "This assignment requires you to binary search algorithm using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Binary Search Algorithm:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Implement Stack",
+    "description": "This assignment requires you to implement stack using basic programming constructs and logic.",
+    "difficulty": "Easy",
+    "color": "lime",
+    "pseudocode": "Pseudocode for Implement Stack:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Fibonacci Series Generator",
+    "description": "This assignment requires you to fibonacci series generator using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Fibonacci Series Generator:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find GCD",
+    "description": "This assignment requires you to find gcd using basic programming constructs and logic.",
+    "difficulty": "Extreme",
+    "color": "red",
+    "pseudocode": "Pseudocode for Find GCD:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Implement Stack",
+    "description": "This assignment requires you to implement stack using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Implement Stack:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find Prime Numbers",
+    "description": "This assignment requires you to find prime numbers using basic programming constructs and logic.",
+    "difficulty": "Easy",
+    "color": "lime",
+    "pseudocode": "Pseudocode for Find Prime Numbers:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find Duplicate Elements",
+    "description": "This assignment requires you to find duplicate elements using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Find Duplicate Elements:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "LCM of Two Numbers",
+    "description": "This assignment requires you to lcm of two numbers using basic programming constructs and logic.",
+    "difficulty": "Easy",
+    "color": "lime",
+    "pseudocode": "Pseudocode for LCM of Two Numbers:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find Duplicate Elements",
+    "description": "This assignment requires you to find duplicate elements using basic programming constructs and logic.",
+    "difficulty": "Easy",
+    "color": "lime",
+    "pseudocode": "Pseudocode for Find Duplicate Elements:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Matrix Multiplication",
+    "description": "This assignment requires you to matrix multiplication using basic programming constructs and logic.",
+    "difficulty": "Easy",
+    "color": "lime",
+    "pseudocode": "Pseudocode for Matrix Multiplication:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Merge Sort",
+    "description": "This assignment requires you to merge sort using basic programming constructs and logic.",
+    "difficulty": "Easy",
+    "color": "lime",
+    "pseudocode": "Pseudocode for Merge Sort:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Factorial Calculator",
+    "description": "This assignment requires you to factorial calculator using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Factorial Calculator:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Breadth First Search",
+    "description": "This assignment requires you to breadth first search using basic programming constructs and logic.",
+    "difficulty": "Intermediate",
+    "color": "yellow",
+    "pseudocode": "Pseudocode for Breadth First Search:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find Prime Numbers",
+    "description": "This assignment requires you to find prime numbers using basic programming constructs and logic.",
+    "difficulty": "Easy",
+    "color": "lime",
+    "pseudocode": "Pseudocode for Find Prime Numbers:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Check Balanced Brackets",
+    "description": "This assignment requires you to check balanced brackets using basic programming constructs and logic.",
+    "difficulty": "Extreme",
+    "color": "red",
+    "pseudocode": "Pseudocode for Check Balanced Brackets:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Implement Stack",
+    "description": "This assignment requires you to implement stack using basic programming constructs and logic.",
+    "difficulty": "Intermediate",
+    "color": "yellow",
+    "pseudocode": "Pseudocode for Implement Stack:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Bubble Sort",
+    "description": "This assignment requires you to bubble sort using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Bubble Sort:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Bubble Sort",
+    "description": "This assignment requires you to bubble sort using basic programming constructs and logic.",
+    "difficulty": "Extreme",
+    "color": "red",
+    "pseudocode": "Pseudocode for Bubble Sort:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find GCD",
+    "description": "This assignment requires you to find gcd using basic programming constructs and logic.",
+    "difficulty": "Extreme",
+    "color": "red",
+    "pseudocode": "Pseudocode for Find GCD:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "LCM of Two Numbers",
+    "description": "This assignment requires you to lcm of two numbers using basic programming constructs and logic.",
+    "difficulty": "Extreme",
+    "color": "red",
+    "pseudocode": "Pseudocode for LCM of Two Numbers:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Breadth First Search",
+    "description": "This assignment requires you to breadth first search using basic programming constructs and logic.",
+    "difficulty": "Extreme",
+    "color": "red",
+    "pseudocode": "Pseudocode for Breadth First Search:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Merge Sort",
+    "description": "This assignment requires you to merge sort using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Merge Sort:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find GCD",
+    "description": "This assignment requires you to find gcd using basic programming constructs and logic.",
+    "difficulty": "Extreme",
+    "color": "red",
+    "pseudocode": "Pseudocode for Find GCD:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find GCD",
+    "description": "This assignment requires you to find gcd using basic programming constructs and logic.",
+    "difficulty": "Extreme",
+    "color": "red",
+    "pseudocode": "Pseudocode for Find GCD:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find Duplicate Elements",
+    "description": "This assignment requires you to find duplicate elements using basic programming constructs and logic.",
+    "difficulty": "Easy",
+    "color": "lime",
+    "pseudocode": "Pseudocode for Find Duplicate Elements:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "LCM of Two Numbers",
+    "description": "This assignment requires you to lcm of two numbers using basic programming constructs and logic.",
+    "difficulty": "Easy",
+    "color": "lime",
+    "pseudocode": "Pseudocode for LCM of Two Numbers:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find GCD",
+    "description": "This assignment requires you to find gcd using basic programming constructs and logic.",
+    "difficulty": "Easy",
+    "color": "lime",
+    "pseudocode": "Pseudocode for Find GCD:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Palindrome Checker",
+    "description": "This assignment requires you to palindrome checker using basic programming constructs and logic.",
+    "difficulty": "Extreme",
+    "color": "red",
+    "pseudocode": "Pseudocode for Palindrome Checker:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "LCM of Two Numbers",
+    "description": "This assignment requires you to lcm of two numbers using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for LCM of Two Numbers:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Depth First Search",
+    "description": "This assignment requires you to depth first search using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Depth First Search:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Check Anagram",
+    "description": "This assignment requires you to check anagram using basic programming constructs and logic.",
+    "difficulty": "Easy",
+    "color": "lime",
+    "pseudocode": "Pseudocode for Check Anagram:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Detect Loop in Linked List",
+    "description": "This assignment requires you to detect loop in linked list using basic programming constructs and logic.",
+    "difficulty": "Extreme",
+    "color": "red",
+    "pseudocode": "Pseudocode for Detect Loop in Linked List:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "LCM of Two Numbers",
+    "description": "This assignment requires you to lcm of two numbers using basic programming constructs and logic.",
+    "difficulty": "Intermediate",
+    "color": "yellow",
+    "pseudocode": "Pseudocode for LCM of Two Numbers:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find Prime Numbers",
+    "description": "This assignment requires you to find prime numbers using basic programming constructs and logic.",
+    "difficulty": "Extreme",
+    "color": "red",
+    "pseudocode": "Pseudocode for Find Prime Numbers:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Detect Loop in Linked List",
+    "description": "This assignment requires you to detect loop in linked list using basic programming constructs and logic.",
+    "difficulty": "Intermediate",
+    "color": "yellow",
+    "pseudocode": "Pseudocode for Detect Loop in Linked List:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Check Balanced Brackets",
+    "description": "This assignment requires you to check balanced brackets using basic programming constructs and logic.",
+    "difficulty": "Easy",
+    "color": "lime",
+    "pseudocode": "Pseudocode for Check Balanced Brackets:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Palindrome Checker",
+    "description": "This assignment requires you to palindrome checker using basic programming constructs and logic.",
+    "difficulty": "Intermediate",
+    "color": "yellow",
+    "pseudocode": "Pseudocode for Palindrome Checker:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find Duplicate Elements",
+    "description": "This assignment requires you to find duplicate elements using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Find Duplicate Elements:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find Duplicate Elements",
+    "description": "This assignment requires you to find duplicate elements using basic programming constructs and logic.",
+    "difficulty": "Easy",
+    "color": "lime",
+    "pseudocode": "Pseudocode for Find Duplicate Elements:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Depth First Search",
+    "description": "This assignment requires you to depth first search using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Depth First Search:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find GCD",
+    "description": "This assignment requires you to find gcd using basic programming constructs and logic.",
+    "difficulty": "Extreme",
+    "color": "red",
+    "pseudocode": "Pseudocode for Find GCD:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Bubble Sort",
+    "description": "This assignment requires you to bubble sort using basic programming constructs and logic.",
+    "difficulty": "Extreme",
+    "color": "red",
+    "pseudocode": "Pseudocode for Bubble Sort:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find Duplicate Elements",
+    "description": "This assignment requires you to find duplicate elements using basic programming constructs and logic.",
+    "difficulty": "Intermediate",
+    "color": "yellow",
+    "pseudocode": "Pseudocode for Find Duplicate Elements:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Binary Search Algorithm",
+    "description": "This assignment requires you to binary search algorithm using basic programming constructs and logic.",
+    "difficulty": "Easy",
+    "color": "lime",
+    "pseudocode": "Pseudocode for Binary Search Algorithm:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Matrix Multiplication",
+    "description": "This assignment requires you to matrix multiplication using basic programming constructs and logic.",
+    "difficulty": "Intermediate",
+    "color": "yellow",
+    "pseudocode": "Pseudocode for Matrix Multiplication:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Binary Search Algorithm",
+    "description": "This assignment requires you to binary search algorithm using basic programming constructs and logic.",
+    "difficulty": "Extreme",
+    "color": "red",
+    "pseudocode": "Pseudocode for Binary Search Algorithm:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Palindrome Checker",
+    "description": "This assignment requires you to palindrome checker using basic programming constructs and logic.",
+    "difficulty": "Extreme",
+    "color": "red",
+    "pseudocode": "Pseudocode for Palindrome Checker:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Palindrome Checker",
+    "description": "This assignment requires you to palindrome checker using basic programming constructs and logic.",
+    "difficulty": "Intermediate",
+    "color": "yellow",
+    "pseudocode": "Pseudocode for Palindrome Checker:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Breadth First Search",
+    "description": "This assignment requires you to breadth first search using basic programming constructs and logic.",
+    "difficulty": "Intermediate",
+    "color": "yellow",
+    "pseudocode": "Pseudocode for Breadth First Search:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Implement Queue",
+    "description": "This assignment requires you to implement queue using basic programming constructs and logic.",
+    "difficulty": "Intermediate",
+    "color": "yellow",
+    "pseudocode": "Pseudocode for Implement Queue:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Reverse a String",
+    "description": "This assignment requires you to reverse a string using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Reverse a String:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find Missing Number",
+    "description": "This assignment requires you to find missing number using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Find Missing Number:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Reverse a String",
+    "description": "This assignment requires you to reverse a string using basic programming constructs and logic.",
+    "difficulty": "Intermediate",
+    "color": "yellow",
+    "pseudocode": "Pseudocode for Reverse a String:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Matrix Multiplication",
+    "description": "This assignment requires you to matrix multiplication using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Matrix Multiplication:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Breadth First Search",
+    "description": "This assignment requires you to breadth first search using basic programming constructs and logic.",
+    "difficulty": "Extreme",
+    "color": "red",
+    "pseudocode": "Pseudocode for Breadth First Search:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Palindrome Checker",
+    "description": "This assignment requires you to palindrome checker using basic programming constructs and logic.",
+    "difficulty": "Extreme",
+    "color": "red",
+    "pseudocode": "Pseudocode for Palindrome Checker:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Check Balanced Brackets",
+    "description": "This assignment requires you to check balanced brackets using basic programming constructs and logic.",
+    "difficulty": "Extreme",
+    "color": "red",
+    "pseudocode": "Pseudocode for Check Balanced Brackets:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Implement Queue",
+    "description": "This assignment requires you to implement queue using basic programming constructs and logic.",
+    "difficulty": "Extreme",
+    "color": "red",
+    "pseudocode": "Pseudocode for Implement Queue:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Detect Loop in Linked List",
+    "description": "This assignment requires you to detect loop in linked list using basic programming constructs and logic.",
+    "difficulty": "Extreme",
+    "color": "red",
+    "pseudocode": "Pseudocode for Detect Loop in Linked List:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Check Anagram",
+    "description": "This assignment requires you to check anagram using basic programming constructs and logic.",
+    "difficulty": "Easy",
+    "color": "lime",
+    "pseudocode": "Pseudocode for Check Anagram:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find Missing Number",
+    "description": "This assignment requires you to find missing number using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Find Missing Number:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find Missing Number",
+    "description": "This assignment requires you to find missing number using basic programming constructs and logic.",
+    "difficulty": "Extreme",
+    "color": "red",
+    "pseudocode": "Pseudocode for Find Missing Number:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Detect Loop in Linked List",
+    "description": "This assignment requires you to detect loop in linked list using basic programming constructs and logic.",
+    "difficulty": "Intermediate",
+    "color": "yellow",
+    "pseudocode": "Pseudocode for Detect Loop in Linked List:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Bubble Sort",
+    "description": "This assignment requires you to bubble sort using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Bubble Sort:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find Prime Numbers",
+    "description": "This assignment requires you to find prime numbers using basic programming constructs and logic.",
+    "difficulty": "Easy",
+    "color": "lime",
+    "pseudocode": "Pseudocode for Find Prime Numbers:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Breadth First Search",
+    "description": "This assignment requires you to breadth first search using basic programming constructs and logic.",
+    "difficulty": "Intermediate",
+    "color": "yellow",
+    "pseudocode": "Pseudocode for Breadth First Search:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find GCD",
+    "description": "This assignment requires you to find gcd using basic programming constructs and logic.",
+    "difficulty": "Intermediate",
+    "color": "yellow",
+    "pseudocode": "Pseudocode for Find GCD:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find Missing Number",
+    "description": "This assignment requires you to find missing number using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Find Missing Number:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find Prime Numbers",
+    "description": "This assignment requires you to find prime numbers using basic programming constructs and logic.",
+    "difficulty": "Extreme",
+    "color": "red",
+    "pseudocode": "Pseudocode for Find Prime Numbers:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Reverse a String",
+    "description": "This assignment requires you to reverse a string using basic programming constructs and logic.",
+    "difficulty": "Easy",
+    "color": "lime",
+    "pseudocode": "Pseudocode for Reverse a String:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Fibonacci Series Generator",
+    "description": "This assignment requires you to fibonacci series generator using basic programming constructs and logic.",
+    "difficulty": "Intermediate",
+    "color": "yellow",
+    "pseudocode": "Pseudocode for Fibonacci Series Generator:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Breadth First Search",
+    "description": "This assignment requires you to breadth first search using basic programming constructs and logic.",
+    "difficulty": "Extreme",
+    "color": "red",
+    "pseudocode": "Pseudocode for Breadth First Search:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Breadth First Search",
+    "description": "This assignment requires you to breadth first search using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Breadth First Search:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Binary Search Algorithm",
+    "description": "This assignment requires you to binary search algorithm using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Binary Search Algorithm:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Fibonacci Series Generator",
+    "description": "This assignment requires you to fibonacci series generator using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Fibonacci Series Generator:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Breadth First Search",
+    "description": "This assignment requires you to breadth first search using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Breadth First Search:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Bubble Sort",
+    "description": "This assignment requires you to bubble sort using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Bubble Sort:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Check Balanced Brackets",
+    "description": "This assignment requires you to check balanced brackets using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Check Balanced Brackets:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Check Anagram",
+    "description": "This assignment requires you to check anagram using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for Check Anagram:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "LCM of Two Numbers",
+    "description": "This assignment requires you to lcm of two numbers using basic programming constructs and logic.",
+    "difficulty": "Hard",
+    "color": "orange",
+    "pseudocode": "Pseudocode for LCM of Two Numbers:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find Missing Number",
+    "description": "This assignment requires you to find missing number using basic programming constructs and logic.",
+    "difficulty": "Extreme",
+    "color": "red",
+    "pseudocode": "Pseudocode for Find Missing Number:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "LCM of Two Numbers",
+    "description": "This assignment requires you to lcm of two numbers using basic programming constructs and logic.",
+    "difficulty": "Intermediate",
+    "color": "yellow",
+    "pseudocode": "Pseudocode for LCM of Two Numbers:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find GCD",
+    "description": "This assignment requires you to find gcd using basic programming constructs and logic.",
+    "difficulty": "Extreme",
+    "color": "red",
+    "pseudocode": "Pseudocode for Find GCD:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  },
+  {
+    "title": "Find Duplicate Elements",
+    "description": "This assignment requires you to find duplicate elements using basic programming constructs and logic.",
+    "difficulty": "Intermediate",
+    "color": "yellow",
+    "pseudocode": "Pseudocode for Find Duplicate Elements:\n- Step 1: Understand what the problem is asking.\n- Step 2: Break the problem into smaller parts.\n- Step 3: Use loops, conditions, or data structures as needed.\n- Step 4: Return or print the final result.\n- Step 5: Test with multiple inputs to verify correctness."
+  }
+]

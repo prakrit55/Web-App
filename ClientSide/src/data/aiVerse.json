@@ -1,0 +1,152 @@
+[
+  {
+    "name": "ChatGPT",
+    "category": "Writing",
+    "description": "Conversational AI for writing, coding help, and brainstorming ideas.",
+    "url": "https://chat.openai.com"
+  },
+  {
+    "name": "Grammarly",
+    "category": "Writing",
+    "description": "AI-powered grammar and writing assistant for clarity and tone.",
+    "url": "https://www.grammarly.com"
+  },
+  {
+    "name": "Copy.ai",
+    "category": "Writing",
+    "description": "Generates marketing copy, social media posts, and blog outlines.",
+    "url": "https://www.copy.ai"
+  },
+  {
+    "name": "Writesonic",
+    "category": "Writing",
+    "description": "AI writer for blogs, ads, landing pages, and product descriptions.",
+    "url": "https://writesonic.com"
+  },
+  {
+    "name": "Leonardo AI",
+    "category": "Image Generation",
+    "description": "AI image generator with stunning quality for creative artwork.",
+    "url": "https://leonardo.ai"
+  },
+  {
+    "name": "Craiyon",
+    "category": "Image Generation",
+    "description": "Free DALL·E-based AI image generator using prompts.",
+    "url": "https://www.craiyon.com"
+  },
+  {
+    "name": "Runway ML",
+    "category": "Video",
+    "description": "Video editing and AI magic tools for content creators.",
+    "url": "https://runwayml.com"
+  },
+  {
+    "name": "Pika Labs",
+    "category": "Video",
+    "description": "Text-to-video generation with AI for animated visuals.",
+    "url": "https://www.pika.art"
+  },
+  {
+    "name": "Lumen5",
+    "category": "Video",
+    "description": "Turn blog posts into engaging videos using AI.",
+    "url": "https://www.lumen5.com"
+  },
+  {
+    "name": "ElevenLabs",
+    "category": "Voice",
+    "description": "Realistic voice synthesis and text-to-speech with emotion control.",
+    "url": "https://www.elevenlabs.io"
+  },
+  {
+    "name": "PlayHT",
+    "category": "Voice",
+    "description": "Text-to-speech platform with high-quality voice cloning.",
+    "url": "https://play.ht"
+  },
+  {
+    "name": "D-ID",
+    "category": "Talking Photo",
+    "description": "Turn photos into speaking avatars with realistic lip-syncing.",
+    "url": "https://www.d-id.com"
+  },
+  {
+    "name": "HeyGen",
+    "category": "Talking Photo",
+    "description": "Create AI avatars that speak your scripts in seconds.",
+    "url": "https://www.heygen.com"
+  },
+  {
+    "name": "Tome",
+    "category": "Presentation",
+    "description": "AI-powered storytelling for creating beautiful presentations.",
+    "url": "https://tome.app"
+  },
+  {
+    "name": "Gamma",
+    "category": "Presentation",
+    "description": "Create modern, responsive slide decks with AI assistance.",
+    "url": "https://gamma.app"
+  },
+  {
+    "name": "Magician.design",
+    "category": "Design",
+    "description": "AI tools for Figma to generate icons, copy, and magic fills.",
+    "url": "https://magician.design"
+  },
+  {
+    "name": "Durable",
+    "category": "Website",
+    "description": "Create a full website in 30 seconds using AI.",
+    "url": "https://durable.co"
+  },
+  {
+    "name": "Mixo",
+    "category": "Website",
+    "description": "AI builder to launch landing pages for startups in seconds.",
+    "url": "https://www.mixo.io"
+  },
+  {
+    "name": "Cleanup.pictures",
+    "category": "Photo Editing",
+    "description": "Remove unwanted objects, people, or text from photos.",
+    "url": "https://cleanup.pictures"
+  },
+  {
+    "name": "Remove.bg",
+    "category": "Photo Editing",
+    "description": "Remove image backgrounds instantly with one click.",
+    "url": "https://remove.bg"
+  },
+  {
+    "name": "Blackbox",
+    "category": "Coding",
+    "description": "Extract code from any video, image, or text snippet instantly.",
+    "url": "https://www.useblackbox.io"
+  },
+  {
+    "name": "Codeium",
+    "category": "Coding",
+    "description": "Free AI code completion tool for VS Code and JetBrains.",
+    "url": "https://www.codeium.com"
+  },
+  {
+    "name": "Perplexity AI",
+    "category": "Search",
+    "description": "Ask questions and get AI-verified answers with sources.",
+    "url": "https://www.perplexity.ai"
+  },
+  {
+    "name": "You.com",
+    "category": "Search",
+    "description": "AI-powered search engine with coding, writing, and chat features.",
+    "url": "https://you.com"
+  },
+  {
+    "name": "Scribble Diffusion",
+    "category": "Drawing",
+    "description": "Turn sketches into refined art using AI.",
+    "url": "https://scribblediffusion.com"
+  }
+]

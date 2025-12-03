@@ -1,0 +1,598 @@
+[
+  {
+    "title": "Frontend Development",
+    "category": "Web Development",
+    "emoji": "💻",
+    "color": "orange",
+    "difficulty": "Beginner",
+    "duration": "6 months",
+    "description": "Master modern frontend development with HTML, CSS, JS, and React",
+    "tags": ["HTML", "CSS", "JavaScript", "React", "Responsive Design"],
+    "steps": [
+      {
+        "stepName": "HTML Fundamentals",
+        "description": "Learn HTML5 structure, semantic elements, forms and accessibility"
+      },
+      {
+        "stepName": "CSS Styling",
+        "description": "Master CSS including Flexbox, Grid, animations and responsive design"
+      },
+      {
+        "stepName": "JavaScript Basics",
+        "description": "Learn variables, functions, DOM manipulation and ES6+ features"
+      },
+      {
+        "stepName": "Advanced JavaScript",
+        "description": "Understand async programming, APIs, error handling and modern JS"
+      },
+      {
+        "stepName": "React Fundamentals",
+        "description": "Learn components, props, state, hooks and React ecosystem"
+      },
+      {
+        "stepName": "Build Projects",
+        "description": "Create portfolio projects to showcase your frontend skills"
+      }
+    ]
+  },
+  {
+    "title": "Backend Development",
+    "category": "Web Development",
+    "emoji": "⚙️",
+    "color": "blue",
+    "difficulty": "Intermediate",
+    "duration": "8 months",
+    "description": "Learn server-side programming, databases, APIs and cloud deployment",
+    "tags": ["Node.js", "Python", "Django", "APIs", "Databases"],
+    "steps": [
+      {
+        "stepName": "Programming Language",
+        "description": "Choose and master a backend language (Node.js, Python, Java, etc.)"
+      },
+      {
+        "stepName": "Server Fundamentals",
+        "description": "Understand HTTP, REST, server architecture and request handling"
+      },
+      {
+        "stepName": "Databases",
+        "description": "Learn SQL and NoSQL databases, ORMs and data modeling"
+      },
+      {
+        "stepName": "API Development",
+        "description": "Build RESTful APIs with proper endpoints and documentation"
+      },
+      {
+        "stepName": "Authentication",
+        "description": "Implement security, JWT, OAuth and user management"
+      },
+      {
+        "stepName": "Caching & Performance",
+        "description": "Learn caching strategies, database optimization and scaling"
+      },
+      {
+        "stepName": "Deployment",
+        "description": "Deploy applications using Docker, cloud services and CI/CD"
+      }
+    ]
+  },
+  {
+    "title": "Full Stack Development",
+    "category": "Web Development",
+    "emoji": "🔗",
+    "color": "magenta",
+    "difficulty": "Intermediate",
+    "duration": "10 months",
+    "description": "Become proficient in both frontend and backend development",
+    "tags": ["MERN Stack", "Authentication", "Deployment", "Full Stack"],
+    "steps": [
+      {
+        "stepName": "Frontend Foundation",
+        "description": "Master HTML, CSS, JavaScript and a frontend framework"
+      },
+      {
+        "stepName": "Backend Foundation",
+        "description": "Learn server-side programming, databases and API development"
+      },
+      {
+        "stepName": "Full Stack Framework",
+        "description": "Choose a stack (MERN, MEAN, Django, etc.) and build projects"
+      },
+      {
+        "stepName": "Authentication Flow",
+        "description": "Implement complete user auth across frontend and backend"
+      },
+      {
+        "stepName": "Database Integration",
+        "description": "Connect frontend to backend with proper data flow"
+      },
+      {
+        "stepName": "Testing",
+        "description": "Write unit and integration tests for full stack apps"
+      },
+      {
+        "stepName": "Deployment",
+        "description": "Deploy complete applications with frontend and backend"
+      }
+    ]
+  },
+  {
+    "title": "React Developer",
+    "category": "Web Development",
+    "emoji": "⚛️",
+    "color": "cyan",
+    "difficulty": "Intermediate",
+    "duration": "5 months",
+    "description": "Specialize in building applications with React ecosystem",
+    "tags": ["React", "Redux", "Next.js", "Hooks", "Context API"],
+    "steps": [
+      {
+        "stepName": "React Fundamentals",
+        "description": "Learn components, JSX, props, state and lifecycle methods"
+      },
+      {
+        "stepName": "Hooks",
+        "description": "Master useState, useEffect, useContext and custom hooks"
+      },
+      {
+        "stepName": "State Management",
+        "description": "Learn Context API, Redux and modern state solutions"
+      },
+      {
+        "stepName": "Routing",
+        "description": "Implement client-side routing with React Router"
+      },
+      {
+        "stepName": "Performance",
+        "description": "Optimize React apps with memoization, lazy loading etc."
+      },
+      {
+        "stepName": "Advanced Patterns",
+        "description": "Learn compound components, render props and HOCs"
+      },
+      {
+        "stepName": "React Ecosystem",
+        "description": "Explore Next.js, Gatsby, testing libraries and more"
+      }
+    ]
+  },
+  {
+    "title": "Android Development",
+    "category": "Mobile",
+    "emoji": "📱",
+    "color": "lime",
+    "difficulty": "Intermediate",
+    "duration": "7 months",
+    "description": "Build native Android apps with Kotlin and Jetpack components",
+    "tags": ["Kotlin", "Android Studio", "Jetpack", "Material Design"],
+    "steps": [
+      {
+        "stepName": "Kotlin Basics",
+        "description": "Learn Kotlin syntax, OOP concepts and Android-specific features"
+      },
+      {
+        "stepName": "Android Studio",
+        "description": "Master the IDE, project structure and build system"
+      },
+      {
+        "stepName": "UI Components",
+        "description": "Build UIs with XML, Material Design and Jetpack Compose"
+      },
+      {
+        "stepName": "App Architecture",
+        "description": "Implement MVVM, repositories and ViewModel"
+      },
+      {
+        "stepName": "Data Persistence",
+        "description": "Store data using Room, SharedPreferences and files"
+      },
+      {
+        "stepName": "Networking",
+        "description": "Make API calls with Retrofit and handle responses"
+      },
+      {
+        "stepName": "Publishing",
+        "description": "Prepare and publish apps to Google Play Store"
+      }
+    ]
+  },
+  {
+    "title": "iOS Development",
+    "category": "Mobile",
+    "emoji": "🍏",
+    "color": "white",
+    "difficulty": "Intermediate",
+    "duration": "7 months",
+    "description": "Create iOS apps using Swift and SwiftUI",
+    "tags": ["Swift", "SwiftUI", "Xcode", "UIKit"],
+    "steps": [
+      {
+        "stepName": "Swift Basics",
+        "description": "Learn Swift syntax, optionals, protocols and generics"
+      },
+      {
+        "stepName": "Xcode Environment",
+        "description": "Master the IDE, Interface Builder and debugging tools"
+      },
+      {
+        "stepName": "SwiftUI Fundamentals",
+        "description": "Build UIs with declarative SwiftUI framework"
+      },
+      {
+        "stepName": "Data Flow",
+        "description": "Manage state with @State, @Binding, ObservableObject"
+      },
+      {
+        "stepName": "Networking",
+        "description": "Fetch data from APIs using URLSession and Codable"
+      },
+      {
+        "stepName": "Core Data",
+        "description": "Implement local persistence with Core Data"
+      },
+      {
+        "stepName": "App Store Submission",
+        "description": "Prepare and submit apps to Apple App Store"
+      }
+    ]
+  },
+  {
+    "title": "Flutter Development",
+    "category": "Mobile",
+    "emoji": "🦋",
+    "color": "mediumaquamarine",
+    "difficulty": "Beginner",
+    "duration": "4 months",
+    "description": "Build cross-platform apps with Flutter framework",
+    "tags": ["Dart", "Flutter", "Widgets", "Cross-platform"],
+    "steps": [
+      {
+        "stepName": "Dart Language",
+        "description": "Learn Dart syntax and programming concepts"
+      },
+      {
+        "stepName": "Flutter Setup",
+        "description": "Install Flutter SDK and configure development environment"
+      },
+      {
+        "stepName": "Widgets",
+        "description": "Understand Flutter's widget tree and composition"
+      },
+      {
+        "stepName": "State Management",
+        "description": "Learn setState, Provider, Riverpod or Bloc"
+      },
+      {
+        "stepName": "Navigation",
+        "description": "Implement routing between different screens"
+      },
+      {
+        "stepName": "API Integration",
+        "description": "Connect your app to backend services"
+      },
+      {
+        "stepName": "Build & Deploy",
+        "description": "Compile for iOS/Android and publish to stores"
+      }
+    ]
+  },
+  {
+    "title": "DevOps Engineer",
+    "category": "DevOps",
+    "emoji": "🔄",
+    "color": "orange",
+    "difficulty": "Advanced",
+    "duration": "12 months",
+    "description": "Learn CI/CD, cloud infrastructure, and deployment automation",
+    "tags": ["Docker", "Kubernetes", "AWS", "CI/CD"],
+    "steps": [
+      {
+        "stepName": "Linux & Scripting",
+        "description": "Master Linux CLI, Bash scripting and server management"
+      },
+      {
+        "stepName": "Cloud Fundamentals",
+        "description": "Learn cloud concepts and major providers (AWS, Azure, GCP)"
+      },
+      {
+        "stepName": "Infrastructure as Code",
+        "description": "Use Terraform or CloudFormation for provisioning"
+      },
+      {
+        "stepName": "Containerization",
+        "description": "Package applications with Docker and orchestrate with Kubernetes"
+      },
+      {
+        "stepName": "CI/CD Pipelines",
+        "description": "Implement automated testing and deployment workflows"
+      },
+      {
+        "stepName": "Monitoring",
+        "description": "Set up logging, monitoring and alerting systems"
+      },
+      {
+        "stepName": "Security",
+        "description": "Implement security best practices in DevOps workflows"
+      }
+    ]
+  },
+  {
+    "title": "Python Developer",
+    "category": "Programming",
+    "emoji": "🐍",
+    "color": "aqua",
+    "difficulty": "Beginner",
+    "duration": "5 months",
+    "description": "Master Python programming and its popular frameworks",
+    "tags": ["Python", "Django", "Flask", "Automation"],
+    "steps": [
+      {
+        "stepName": "Python Basics",
+        "description": "Learn syntax, data structures and basic programming concepts"
+      },
+      {
+        "stepName": "OOP in Python",
+        "description": "Understand classes, inheritance and polymorphism"
+      },
+      {
+        "stepName": "Modules & Packages",
+        "description": "Work with Python's module system and pip packages"
+      },
+      {
+        "stepName": "Web Frameworks",
+        "description": "Choose Django or Flask for web development"
+      },
+      {
+        "stepName": "Database Integration",
+        "description": "Connect Python apps to databases using ORMs"
+      },
+      {
+        "stepName": "APIs",
+        "description": "Build and consume RESTful APIs with Python"
+      },
+      {
+        "stepName": "Automation & Scripting",
+        "description": "Write scripts to automate tasks and processes"
+      }
+    ]
+  },
+  {
+    "title": "Java Developer",
+    "category": "Programming",
+    "emoji": "☕",
+    "color": "red",
+    "difficulty": "Intermediate",
+    "duration": "8 months",
+    "description": "Become proficient in Java and Spring framework",
+    "tags": ["Java", "Spring Boot", "Maven", "JVM"],
+    "steps": [
+      {
+        "stepName": "Java Fundamentals",
+        "description": "Learn syntax, OOP concepts and core Java features"
+      },
+      {
+        "stepName": "Advanced Java",
+        "description": "Understand collections, streams, multithreading and more"
+      },
+      {
+        "stepName": "Build Tools",
+        "description": "Use Maven or Gradle for dependency management"
+      },
+      {
+        "stepName": "Spring Framework",
+        "description": "Learn Spring Core, DI and basic Spring concepts"
+      },
+      {
+        "stepName": "Spring Boot",
+        "description": "Build production-ready apps with Spring Boot"
+      },
+      {
+        "stepName": "Database Access",
+        "description": "Use JPA/Hibernate for database operations"
+      },
+      {
+        "stepName": "Microservices",
+        "description": "Build distributed systems with Spring Cloud"
+      }
+    ]
+  },
+  {
+    "title": "Data Scientist",
+    "category": "Data Science",
+    "emoji": "📊",
+    "color": "pink",
+    "difficulty": "Advanced",
+    "duration": "12 months",
+    "description": "Learn statistics, machine learning and data visualization",
+    "tags": ["Python", "Pandas", "NumPy", "Machine Learning"],
+    "steps": [
+      {
+        "stepName": "Python for Data Science",
+        "description": "Master NumPy, Pandas and data manipulation"
+      },
+      {
+        "stepName": "Statistics",
+        "description": "Learn probability, distributions and statistical tests"
+      },
+      {
+        "stepName": "Data Visualization",
+        "description": "Create charts and dashboards with Matplotlib/Seaborn"
+      },
+      {
+        "stepName": "Machine Learning",
+        "description": "Understand algorithms, model training and evaluation"
+      },
+      {
+        "stepName": "Deep Learning",
+        "description": "Explore neural networks with TensorFlow/PyTorch"
+      },
+      {
+        "stepName": "Big Data Tools",
+        "description": "Work with Spark, Hadoop for large datasets"
+      },
+      {
+        "stepName": "Deployment",
+        "description": "Deploy models as APIs or integrate into products"
+      }
+    ]
+  },
+  {
+    "title": "UX/UI Designer",
+    "category": "Design",
+    "emoji": "🎨",
+    "color": "fuchsia",
+    "difficulty": "Beginner",
+    "duration": "5 months",
+    "description": "Master user experience and interface design principles",
+    "tags": ["Figma", "Adobe XD", "Wireframing", "Prototyping"],
+    "steps": [
+      {
+        "stepName": "Design Principles",
+        "description": "Learn color theory, typography and visual hierarchy"
+      },
+      {
+        "stepName": "User Research",
+        "description": "Conduct user interviews and create personas"
+      },
+      {
+        "stepName": "Wireframing",
+        "description": "Create low-fidelity mockups and information architecture"
+      },
+      {
+        "stepName": "Prototyping",
+        "description": "Build interactive prototypes with Figma/Adobe XD"
+      },
+      {
+        "stepName": "UI Design",
+        "description": "Create high-fidelity designs with attention to detail"
+      },
+      {
+        "stepName": "Design Systems",
+        "description": "Build reusable component libraries and style guides"
+      },
+      {
+        "stepName": "Usability Testing",
+        "description": "Validate designs through user testing sessions"
+      }
+    ]
+  },
+  {
+    "title": "Blockchain Developer",
+    "category": "Web3",
+    "emoji": "⛓️",
+    "color": "silver",
+    "difficulty": "Advanced",
+    "duration": "9 months",
+    "description": "Learn smart contracts and decentralized application development",
+    "tags": ["Solidity", "Ethereum", "Smart Contracts", "Web3"],
+    "steps": [
+      {
+        "stepName": "Blockchain Basics",
+        "description": "Understand distributed ledgers, consensus mechanisms"
+      },
+      {
+        "stepName": "Ethereum",
+        "description": "Learn EVM, gas fees and Ethereum architecture"
+      },
+      {
+        "stepName": "Solidity",
+        "description": "Master smart contract development with Solidity"
+      },
+      {
+        "stepName": "Development Tools",
+        "description": "Use Hardhat, Truffle for testing and deployment"
+      },
+      {
+        "stepName": "Web3.js/ethers.js",
+        "description": "Interact with blockchain from frontend applications"
+      },
+      {
+        "stepName": "DeFi & NFTs",
+        "description": "Understand popular blockchain use cases and patterns"
+      },
+      {
+        "stepName": "Security",
+        "description": "Learn smart contract security best practices"
+      }
+    ]
+  },
+  {
+    "title": "Cybersecurity Specialist",
+    "category": "Security",
+    "emoji": "🔒",
+    "color": "gold",
+    "difficulty": "Advanced",
+    "duration": "15 months",
+    "description": "Learn ethical hacking and system security principles",
+    "tags": ["Networking", "Penetration Testing", "Cryptography"],
+    "steps": [
+      {
+        "stepName": "Networking Fundamentals",
+        "description": "Understand TCP/IP, DNS, firewalls and network protocols"
+      },
+      {
+        "stepName": "Operating Systems",
+        "description": "Master Linux/Windows security features and hardening"
+      },
+      {
+        "stepName": "Cryptography",
+        "description": "Learn encryption, hashing and cryptographic protocols"
+      },
+      {
+        "stepName": "Penetration Testing",
+        "description": "Perform ethical hacking and vulnerability assessments"
+      },
+      {
+        "stepName": "Security Tools",
+        "description": "Use Wireshark, Metasploit, Nmap and other tools"
+      },
+      {
+        "stepName": "Web Security",
+        "description": "Understand OWASP Top 10 and secure coding practices"
+      },
+      {
+        "stepName": "Compliance & Laws",
+        "description": "Learn security standards and legal requirements"
+      }
+    ]
+  },
+  {
+    "title": "Technical Writer",
+    "category": "Documentation",
+    "emoji": "✍️",
+    "color": "white",
+    "difficulty": "Beginner",
+    "duration": "3 months",
+    "description": "Learn to create effective technical documentation",
+    "tags": ["Markdown", "API Docs", "Technical Communication"],
+    "steps": [
+      {
+        "stepName": "Writing Basics",
+        "description": "Master clear, concise technical writing style"
+      },
+      {
+        "stepName": "Markdown",
+        "description": "Learn Markdown syntax for documentation"
+      },
+      {
+        "stepName": "Documentation Tools",
+        "description": "Use tools like GitBook, ReadTheDocs, Swagger"
+      },
+      {
+        "stepName": "API Documentation",
+        "description": "Write comprehensive API references"
+      },
+      {
+        "stepName": "User Guides",
+        "description": "Create tutorials and how-to guides"
+      },
+      {
+        "stepName": "Diagrams",
+        "description": "Create visual documentation with diagrams"
+      },
+      {
+        "stepName": "Collaboration",
+        "description": "Work with developers using Git and docs-as-code"
+      }
+    ]
+  }
+]

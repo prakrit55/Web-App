@@ -1,0 +1,72 @@
+[
+  {
+    "id": "js-closures",
+    "title": "JavaScript Closures",
+    "category": "JavaScript",
+    "tags": ["functions", "scope"],
+    "snippet": "A closure is a function that remembers the variables from its outer scope..."
+  },
+  {
+    "id": "react-useState",
+    "title": "useState Hook",
+    "category": "React",
+    "tags": ["hooks", "state"],
+    "snippet": "useState is a React Hook that lets you add state to functional components..."
+  },
+  {
+    "id": "git-basics",
+    "title": "Git Basics",
+    "category": "Git",
+    "tags": ["version-control", "terminal"],
+    "snippet": "Git is a distributed version control system used to track changes in source code..."
+  },
+  {
+    "id": "html-semantics",
+    "title": "Semantic HTML",
+    "category": "HTML",
+    "tags": ["html5", "accessibility"],
+    "snippet": "Semantic HTML uses elements that clearly describe their meaning in a human- and machine-readable way..."
+  },
+  {
+    "id": "css-flexbox",
+    "title": "CSS Flexbox",
+    "category": "CSS",
+    "tags": ["layout", "responsive"],
+    "snippet": "Flexbox is a CSS layout model that makes it easy to align elements horizontally and vertically..."
+  },
+  {
+    "id": "js-promise",
+    "title": "JavaScript Promises",
+    "category": "JavaScript",
+    "tags": ["async", "then", "catch"],
+    "snippet": "Promises are used to handle asynchronous operations in JavaScript..."
+  },
+  {
+    "id": "react-useEffect",
+    "title": "useEffect Hook",
+    "category": "React",
+    "tags": ["hooks", "lifecycle"],
+    "snippet": "useEffect allows you to perform side effects in function components..."
+  },
+  {
+    "id": "nodejs-basics",
+    "title": "Node.js Basics",
+    "category": "Backend",
+    "tags": ["node", "runtime"],
+    "snippet": "Node.js is a JavaScript runtime built on Chrome's V8 engine..."
+  },
+  {
+    "id": "express-routing",
+    "title": "Express Routing",
+    "category": "Backend",
+    "tags": ["express", "api"],
+    "snippet": "Express makes it easy to handle routing in a Node.js application..."
+  },
+  {
+    "id": "mongo-crud",
+    "title": "MongoDB CRUD",
+    "category": "Database",
+    "tags": ["mongodb", "nosql"],
+    "snippet": "CRUD operations in MongoDB include Create, Read, Update, and Delete..."
+  }
+]
