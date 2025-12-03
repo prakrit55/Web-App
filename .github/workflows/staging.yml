@@ -99,46 +99,41 @@ jobs:
         run: |
           sudo wget https://github.com/mikefarah/yq/releases/download/v4.40.5/yq_linux_amd64 -O /usr/bin/yq
           sudo chmod +x /usr/bin/yq
-
+          
       - name: setup git and clone brew formula
-        env:
-          GH_PAT: ${{ secrets.GHCR_PAT }}
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-
-          git clone \
-            --branch staging \
-            --single-branch \
-            https://x-access-token:${GH_PAT}@github.com/prakrit55/Argo-GitOps.git
-          cd Argo-GitOps
-
-          git checkout -b staging-${{ github.run_number }}
+        uses: actions/checkout@v3
+        with:
+          path: 'Argo-GitOps'
+          ref: 'staging'
+          repository: 'prakrit55/Argo-GitOps'
+          token: ${{ secrets.GHCR_PAT }}
+          fetch-depth: 0
+          persist-credentials: true
 
       - name: Update workload image name in Backend Manifest
         if: steps.backend-workload-changed.outputs.changed == 'true'
         run: |
           cd Argo-GitOps
-          yq -i '.spec.template.spec.containers[0].image = env(BACKEND_NEW_IMAGE)' backend.yaml
+          git checkout -b staging-${{ github.run_number }}
+          yq -i '.spec.template.spec.containers[0].image = env(BACKEND_NEW_IMAGE)' backend/backend.yaml
 
       - name: Update workload image in Frontend Manifest
         if: steps.frontend-workload-changed.outputs.changed == 'true'
         run: |
           cd Argo-GitOps
-          yq -i '.spec.template.spec.containers[0].image = env(FRONTEND_NEW_IMAGE)' frontend.yaml
+          git checkout staging-${{ github.run_number }}
+          yq -i '.spec.template.spec.containers[0].image = env(FRONTEND_NEW_IMAGE)' frontend/frontend.yaml
 
       - name: Commit changes
         if: steps.backend-workload-changed.outputs.changed == 'true' || steps.frontend-workload-changed.outputs.changed == 'true'
-        env:
-          GH_PAT: ${{ secrets.GHCR_PAT }}
         run: |
           cd Argo-GitOps
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
+          git remote set-url origin https://x-access-token:${{ secrets.GHCR_PAT }}@github.com/prakrit55/Argo-GitOps.git
           git add .
-          git commit -m "Update image" || echo "No changes to commit"
-          git remote set-url origin https://prakrit55:${{ secrets.GH_PAT }}@github.com/prakrit55/Argo-GitOps.git
-          git push --set-upstream origin HEAD
+          git commit -m "Update image for staging-${{ github.run_number }}"
+          git push --set-upstream origin staging-${{ github.run_number }}
 
       - name: Create Pull Request on Argo-GitOps
         if: steps.backend-workload-changed.outputs.changed == 'true' || steps.frontend-workload-changed.outputs.changed == 'true'

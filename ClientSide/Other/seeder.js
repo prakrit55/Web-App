@@ -1,13 +1,13 @@
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
-const roadmaps = require("../ServerSide/src/data/roadmap.json");
-const courses = require("../ServerSide/src/data/courses.json");
+const roadmaps = require("../../ServerSide/src/data/roadmap.json");
+const courses = require("../../ServerSide/src/data/courses.json");
 
 // seeder.js
 import mongoose from "mongoose";
 import dotenv from "dotenv";
-import Course from "../ServerSide/src/models/Course.js";
-import Roadmap from "../ServerSide/src/models/Roadmap.js";
+import Course from "../../ServerSide/src/models/Course.js";
+import Roadmap from "../../ServerSide/src/models/Roadmap.js";
 // import courses from "./data/courses.json";
 // import roadmaps from "./data/roadmaps.json";
 
