@@ -121,7 +121,7 @@ jobs:
         if: steps.frontend-workload-changed.outputs.changed == 'true'
         run: |
           cd Argo-GitOps
-          git checkout staging-${{ github.run_number }}
+          git checkout -b staging-${{ github.run_number }} || git checkout staging-${{ github.run_number }}
           yq -i '.spec.template.spec.containers[0].image = env(FRONTEND_NEW_IMAGE)' frontend/frontend.yaml
 
       - name: Commit changes

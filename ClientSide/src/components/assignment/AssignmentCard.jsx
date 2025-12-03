@@ -15,7 +15,6 @@ function AssignmentCard({ assignment }) {
             Difficulty: {assignment.difficulty}
           </span>
         </div>
-
         <p className="text-gray-600 dark:text-gray-300">{assignment.description}</p>
 
         <div className="flex flex-wrap gap-3 mt-4">
