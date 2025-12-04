@@ -34,7 +34,7 @@ WEB-APP
 ├── LICENSE
 ├── package-lock.json
 ├── README.md
-
+```
 ## Containerization
 ClientSide
 ServerSide
@@ -46,7 +46,7 @@ ServerSide
 📦 1. backend/
 
 This folder contains all manifests related to your backend service.
-
+```text
 ✔ backend.yaml
 Deployment for your Node.js / Express backend
 Defines replicas, image, env variables, ports, labels.
@@ -59,9 +59,9 @@ ArgoCD + Sealed Secrets controller decrypt it at runtime
 Stores things like:
 JWT secret
 MongoDB URI
-
+```
 ➡️ All backend configs stay in this folder, making GitOps clean.
-
+```text
 🎨 2. frontend/
 This folder contains all manifests for your React/Vite frontend.
 ✔ configmap.yaml
@@ -78,7 +78,7 @@ Pod labels
 Replicas
 ✔ service.yaml
 ClusterIP service for frontend → used by Ingress.
-
+```
 ➡️ Keeps frontend configuration isolated and versioned in Git.
 
 ![alt text](<Assets/Screenshot (493).png>)
@@ -111,18 +111,17 @@ Cluster Autoscaler
 EBS CSI Driver
 
 🐳 ECR
-![alt text](<Assets/Screenshot (472).png>)
 ECR Repository for your Docker images
 GitHub Actions OIDC Role → Push to ECR
-
+```
+![alt text](<Assets/Screenshot (472).png>)
+```text
 📈 Autoscaling
 Cluster Autoscaler IAM + deployment
-
 S3 Bucket
-![alt text](<Assets/Screenshot (468).png>)
 To keep static files like images, codes.
 ```
-
+![alt text](<Assets/Screenshot (468).png>)
 ## Domain and SSL
 ![alt text](<Assets/Screenshot (464).png>)
 
