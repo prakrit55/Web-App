@@ -1,0 +1,25 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: my-ingress-1
+  namespace: ingress-nginx
+  annotations:
+    cert-manager.io/cluster-issuer: http-01-production
+    nginx.ingress.kubernetes.io/service-upstream: "true"
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: web.ranaequator.club
+      http:
+        paths:
+          - pathType: Prefix
+            path: /
+            backend:
+              service:
+                name: frontend-service.staging.svc.cluster.local # frontend-service.prod.svc.cluster.local
+                port:
+                  number: 80
+  tls:
+    - hosts:
+        - web.ranaequator.club
+      secretName: web-ranaequator-club
