@@ -4,7 +4,7 @@
 
 ![alt text](<Assets/Screenshot (465).png>)
 
-ClientSide: ReactJS
+ClientSide: ReactJS,
 ServerSide: ExpressJS
 
 ```text
