@@ -41,7 +41,7 @@ ServerSide
 
 ## Orchestration
 
-![alt text](Assets/devops.drawio.png)
+![alt text](Assets/devopsn.drawio.png)
 
 📦 1. backend/
 
